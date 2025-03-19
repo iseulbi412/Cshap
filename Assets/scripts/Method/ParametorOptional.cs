@@ -1,16 +1,18 @@
 using UnityEngine;
 namespace Method
 {
-    public class MEthodPrivate : MonoBehaviour
+    public class ParametorOptional : MonoBehaviour
     {
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            Dog cat = new Dog();
+            Debug.Log(Add(5));
+            Debug.Log(Add(5,3));
 
-            cat.Eat();
-            cat.weight = 30;
-
+        }
+        int Add(int a, int b = 1)
+        {
+            return a + b;
         }
     }
 }
