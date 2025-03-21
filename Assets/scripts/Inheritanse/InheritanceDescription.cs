@@ -7,12 +7,9 @@ namespace Inheritance
         void Start()
         {
 
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
+            Child child = new Child();
+            child.Foo();
+            child.Bar();
         }
     }
 }
