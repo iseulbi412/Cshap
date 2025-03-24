@@ -14,6 +14,15 @@ namespace Override
 
             Animal dog2 = new Dog();
             dog2.Eat();
+
+            Cat cat = new Cat();
+            cat.Eat();
+
+            Animal aDog = new Dog();
+            aDog.Eat();
+
+            Animal bCat = new Cat();
+            bCat.Eat();
         }
     }
 }
