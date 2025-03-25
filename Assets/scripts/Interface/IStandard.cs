@@ -74,7 +74,7 @@ namespace Interfacetase
         {
             if (Click!=null)
             {
-                Click.Invoke();
+               
             }
         }
     }
